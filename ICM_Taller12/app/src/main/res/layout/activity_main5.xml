@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textName"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Machu Picchu"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textName"
+        android:layout_centerHorizontal="true"
+        android:text="Perú"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <TextView
+        android:id="@+id/textCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCountry"
+        android:layout_centerHorizontal="true"
+        android:text="Ciudades Históricas"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/textPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCategory"
+        android:layout_centerHorizontal="true"
+        android:text="Caminata por el Camino Inca"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPlan"
+        android:layout_centerHorizontal="true"
+        android:text="USD 500"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <Button
+        android:id="@+id/buttonFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addFavorites"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
